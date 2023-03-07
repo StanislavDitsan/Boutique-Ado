@@ -35,3 +35,22 @@
     color: #000;
     border: 1px solid #000;
 }
+
+#loading-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top, #321726, #321e2f, #322536, #312c3c, #323341, #3b4354, #425367, #48657a, #4c88a1, #4aadc3, #4cd4de, #5ffbf1);
+    z-index: 9999;
+}
+
+.loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+}
