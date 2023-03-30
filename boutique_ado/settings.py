@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-*r)ksjtz(l3dt994*1&ax0a&_ffazr7(l5p!b=!p-#%sq(p4f0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['boutique-ado-shop.herokuapp.com', 'localhost']
 
